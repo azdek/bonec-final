@@ -1,0 +1,57 @@
+@import "../fonts.scss";
+@import "../colors.scss";
+
+.important {
+  position: relative;
+  .corona--image {
+    position: absolute;
+    max-width: 150px;
+    &:nth-child(1){
+      width: 10vw;
+      top: 5%;
+      left: 10%;
+    }
+  }
+  .horizontal_dotted_line {
+    border-bottom: 1px dotted $color-main;
+    width: 100%;
+  }
+  .important__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: start;
+    margin-bottom: 1em;
+
+    .icon {
+      width: 7rem;
+      height: 7rem;
+      border-radius: 50%;
+      background-color: $color-main;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+        width: 60%;
+      }
+      .rotate {
+        transform: rotate(45deg);
+      }
+    }
+    .title {
+      margin: 0.5em auto;
+      font-size: 1.8rem;
+
+      @media (max-width: 768px) {
+        font-size: 1.4rem;
+      }
+    }
+    .descr {
+      color: $color-dark;
+      font-family: $font-regular;
+      line-height: 1.2em;
+      max-width: 230px;
+    }
+  }
+}

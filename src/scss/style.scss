@@ -1,0 +1,54 @@
+@import "~bootstrap/scss/bootstrap";
+@import "reset.scss";
+@import "fonts.scss";
+@import "colors.scss";
+@import "scroll.scss";
+
+// SECTIONS
+@import "./sections/main.scss";
+@import "./sections/important.scss";
+@import "./sections/actual";
+@import "./sections/donors";
+@import "./sections/counter";
+@import "./sections/attemption";
+@import "./sections/slider";
+
+body {
+  font-family: $font-bold;
+  color: $color-main;
+  font-size: 20px;
+}
+
+h1 {
+  color: $color-main;
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 1em;
+}
+
+.accent {
+  color: $color-accent;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+section {
+  padding: 3rem 0;
+  overflow: hidden;
+}
+
+.corona--image {
+  opacity: 0.1;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 12px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+}

@@ -1,0 +1,339 @@
+<% var data = {
+  title: "СИСТЕМА МАССОВОГО ЛАБОРАТОРНОГО ДИАГНОСТИРОВАНИЯ"
+}; %>
+<%= _.template(require('./../includes/header.html').default)(data) %>
+
+<section class="main">
+  <div class="main-content">
+    <img class="main-content__logo" src="img/icons/logo.svg" alt="">
+    <img class="main-content__corona main-content__corona--first" src="img/icons/corona.svg" alt="">
+    <img class="main-content__corona main-content__corona--second" src="img/icons/corona.svg" alt="">
+    <img class="main-content__corona main-content__corona--third" src="img/icons/corona.svg" alt="">
+    <img class="main-content__corona main-content__corona--fourth" src="img/icons/corona.svg" alt="">
+    <img class="main-content__corona main-content__corona--fifth" src="img/icons/corona.svg" alt="">
+    <img class="main-content__corona main-content__corona--sixth" src="img/icons/corona.svg" alt="">
+    <img class="main-content__tube" src="img/icons/tube.svg" alt="">
+    <!-- <img class="main-content__corona main-content__corona--fourth" src="img/icons/corona.svg" alt=""> -->
+    <div class="main-content__title">
+      СИСТЕМА МАССОВОГО ЛАБОРАТОРНОГО ДИАГНОСТИРОВАНИЯ
+      <span>COVID-19</span>
+    </div>
+  </div>
+</section>
+
+<section class="important">
+  <img class="corona--image" src="img/corona-grey.svg" alt="">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h1>САМОЕ ВАЖНОЕ</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="important__card">
+          <div class="icon"><img class="rotate" src="img/icons/medical.svg" alt=""></div>
+          <h2 class="title accent">ПЦР ТЕСТЫ</h2>
+          <p class="descr">ТОЧНОСТЬ ПЦР <span class="highlight">ТЕСТА <span class="accent">99%</span>. ТЕСТ
+              ДЕЛАЕТСЯ</span> НА ОСНОВЕ МАЗКА СЛИЗИСТОЙ НОСА. ПОДТВЕРЖДАТЬ ЕГО РЕЗУЛЬТАТОМ ДРУГОГО ТЕСТА НЕТ
+            НЕОБХОДИМОСТИ
+          </p>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="important__card">
+          <div class="icon"><img src="img/icons/payment.svg" alt=""></div>
+          <h2 class="title accent">ФИНАНСИРОВАНИЕ</h2>
+          <p class="descr">ПРОЕКТ ПОЛНОСТЬЮ ФИНАНСИРУЮТ МЕЦЕНАТЫ И ПРЕДПРИНИМАТЕЛИ. СТАТЬ УЧАСТНИКОМ ПРОЕКТА И ПЕРЕВЕСТИ
+            СРЕДСТВА МОЖЕТ ЛЮБОЙ ЖЕЛАЮЩИЙ</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="important__card">
+          <div class="icon"><img src="img/icons/money.svg" alt=""></div>
+          <h2 class="title accent">ЦЕНА</h2>
+          <p class="descr">АНАЛИЗ ПРОВОДИТСЯ <span class="accent">БЕСПЛАТНО</span> И СТРОГО ПО СПИСКАМ ПАЦИЕНТОВ,
+            КОТОРЫЕ ПЕРЕДАЕТ ЗДРАВООХРАНЕНИЯ КР</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="actual">
+  <img class="corona--image" src="img/corona-grey.svg" alt="">
+  <img class="corona--image" src="img/corona-grey.svg" alt="">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h1>АКТУАЛЬНЫЕ ДАННЫЕ</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="actual__card">
+          <h2 class="title accent">ПОСТУПИЛО</h2>
+          <div class="block">
+            <img class="icon" src="img/icons/circle.svg" alt="">
+            <span class="highlight">567 567</span> сом
+            <img class="icon--big" src="img/icons/coins.svg" alt="">
+          </div>
+          <div class="block__line"></div>
+          <div class="block__circle"></div>
+          <p class="descr highlight">СПИСОК МЕЦЕНАТОВ</p>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="actual__card">
+          <h2 class="title accent">ЧЕЛОВЕК</h2>
+          <div class="block">
+            <img class="icon" src="img/icons/circle.svg" alt="">
+            <span class="highlight">5 675 123</span> чел
+            <img class="icon--big" src="img/icons/man.svg" alt="">
+          </div>
+          <div class="block__line"></div>
+          <div class="block__circle"></div>
+          <p class="descr">СКОЛЬКО ЧЕЛОВЕК МОЖЕТ СДАТЬ</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="donors">
+  <div class="title">КОЛИЧЕСТВО ТЕСТОВ</div>
+  <div class="subtitle">КОТОРЫЕ БЫЛИ ЗАКУПЛЕНЫ НА СРЕДСТВА КОНКРЕТНЫХ МЕЦЕНАТОВ</div>
+
+  <div class="donors__slider">
+    <div>
+      <div class="block">
+        <div class="head"></div>
+        <div class="body">
+          <span class="highlight">75 653</span>
+        </div>
+        <div class="leg">
+          <span class="highlight">«Мол Булак»</span>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="block">
+        <div class="head"></div>
+        <div class="body">
+          <span class="highlight">242 218</span>
+        </div>
+        <div class="leg">
+          <span class="highlight">РСК Банк</span>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="block">
+        <div class="head"></div>
+        <div class="body">
+          <span class="highlight">2 428</span>
+        </div>
+        <div class="leg">
+          <span class="highlight">«ГРИНТЕКГРУП»</span>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="block">
+        <div class="head"></div>
+        <div class="body">
+          <span class="highlight">242 218</span>
+        </div>
+        <div class="leg">
+          <span class="highlight">РСК Банк</span>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="block">
+        <div class="head"></div>
+        <div class="body">
+          <span class="highlight">2 428</span>
+        </div>
+        <div class="leg">
+          <span class="highlight">«ГРИНТЕКГРУП»</span>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="block">
+        <div class="head"></div>
+        <div class="body">
+          <span class="highlight">242 218</span>
+        </div>
+        <div class="leg">
+          <span class="highlight">РСК Банк</span>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="block">
+        <div class="head"></div>
+        <div class="body">
+          <span class="highlight">2 428</span>
+        </div>
+        <div class="leg">
+          <span class="highlight">«ГРИНТЕКГРУП»</span>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="block">
+        <div class="head"></div>
+        <div class="body">
+          <span class="highlight">242 218</span>
+        </div>
+        <div class="leg">
+          <span class="highlight">РСК Банк</span>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="block">
+        <div class="head"></div>
+        <div class="body">
+          <span class="highlight">2 428</span>
+        </div>
+        <div class="leg">
+          <span class="highlight">«ГРИНТЕКГРУП»</span>
+        </div>
+      </div>
+    </div>
+    <div>
+      <a href="tel:+996123123123">
+        <div class="block">
+          <div class="head"></div>
+          <div class="body">
+            <span class="line"></span>
+          </div>
+          <div class="leg">
+            <span style="width: min-content;" class="highlight">Перечислить средства</span>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <img class="donors__background donors__background--left" src="img/kyrgyzstan.svg" alt="">
+  <img class="donors__background donors__background--right" src="img/kyrgyzstan.svg" alt="">
+
+</section>
+
+<section class="counter">
+  <img class="corona--image" src="img/corona-green.svg" alt="">
+  <img class="corona--image" src="img/corona-green.svg" alt="">
+  <img class="corona--image" src="img/corona-green.svg" alt="">
+  <div class="container">
+    <div class="row">
+      <div class="block">
+        <div class="head">
+          <div class="head__border">
+            1
+          </div>
+        </div>
+        <div class="body">
+          ВСЕГО ВЫПОЛНЕНО ТЕСТОВ
+        </div>
+        <div class="footer">
+          2428
+        </div>
+      </div>
+    </div>
+
+    <div class="items">
+      <div class="item">
+        <img src="img/frame.svg" alt="">
+        <span>
+          АНАЛИЗ ПРОВОДИТСЯ
+          БЕСПЛАТНО И СТРОГО
+          ПО СПИСКАМ ПАЦИЕНТОВ,
+          КОТОРЫЕ ПЕРЕДАЕТ
+          МИНИСТЕРСТВО
+          ЗДРАВООХРАНЕНИЯ КР
+        </span>
+      </div>
+
+      <div class="item">
+        <img src="img/frame.svg" alt="">
+        <span>
+          ТЕСТЫ НЕ ВЫПОЛНЯЮТСЯ
+          ДЛЯ ЧАСТНЫХ ЛИЦ, КРОМЕ
+          КОМПАНИЙ
+        </span>
+      </div>
+
+      <div class="item">
+        <img src="img/frame.svg" alt="">
+        <span>
+          У КОМПАНИЙ ЕСТЬ
+          ВОЗМОЖНОСТЬ ПРОВЕРИТЬ
+          СВОИХ СОТРУДНИКОВТАКАЯ ПРОВЕРКА
+          НЕ ЯВЛЯЕТСЯ
+          ОБЯЗАТЕЛЬНОЙ
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="block">
+        <div class="head">
+          <div class="head__border">
+            2
+          </div>
+        </div>
+        <div class="body">
+          ЗА СЕГОДНЯ ВЫПОЛНЕНО ТЕСТОВ
+        </div>
+        <div class="footer">
+          2428
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="attemption">
+  <div class="container">
+    <div class="row">
+      <div class="text">
+        <img src="img/attemption.svg" alt="">
+        <p>
+          ДАННЫЙ ПРОЕКТ ЯВЛЯЕТСЯ БЛАГОТВОРИТЕЛЬНЫМ И ПРОВОДИТСЯ НА СОБРАННЫЕ СРЕДСТВА БИЗНЕСМЕНОВ И МЕЦЕНАТОВ
+          <br />
+          <br />
+          ВСЕ ТЕСТЫ, КОТОРЫЕ ПОСТУПИЛИ В РЕСПУБЛИКУ В ВИДЕ ГУМАНИТАРНОЙ ПОМОЩИ ОСТАЮТСЯ НА БАЛАНСЕ ГОСУДАРСТВА, И
+          ТАКЖЕ, КАК И РАНЬШЕ БУДУТ ПРОВОДИТЬСЯ ГОСУДАРСТВЕННЫМИ МЕДИЦИНСКИМИ УЧРЕЖДЕНИЯМИ НА БЕСПЛАТНОЙ ОСНОВЕ.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="slider">
+  <img class="corona--image" src="img/corona-green.svg" alt="">
+  <img class="corona--image" src="img/corona-green.svg" alt="">
+  <img class="corona--image" src="img/corona-green.svg" alt="">
+  <div class="slider__wrapper">
+    <%= _.template(require('./../includes/slider-item.html').default)() %>
+    <%= _.template(require('./../includes/slider-item.html').default)() %>
+    <%= _.template(require('./../includes/slider-item.html').default)() %>
+    <%= _.template(require('./../includes/slider-item.html').default)() %>
+    <%= _.template(require('./../includes/slider-item.html').default)() %>
+    <%= _.template(require('./../includes/slider-item.html').default)() %>
+    <%= _.template(require('./../includes/slider-item.html').default)() %>
+    <%= _.template(require('./../includes/slider-item.html').default)() %>
+    <%= _.template(require('./../includes/slider-item.html').default)() %>
+    <%= _.template(require('./../includes/slider-item.html').default)() %>
+    <%= _.template(require('./../includes/slider-item.html').default)() %>
+    <%= _.template(require('./../includes/slider-item.html').default)() %>
+  </div>
+</section>
+
+<%= _.template(require('./../includes/footer.html').default)(data) %>

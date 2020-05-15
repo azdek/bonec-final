@@ -1,0 +1,29 @@
+$font-stack: -apple-system, BlinkMacSystemFont, Roboto, "Open Sans",
+  "Helvetica Neue", sans-serif;
+$font-bold: -apple-system, PF Beau Sans Pro Bold, Roboto, "Open Sans",
+  "Helvetica Neue", sans-serif;
+$font-regular: -apple-system, PF Beau Sans Pro Regular, Roboto, "Open Sans",
+  "Helvetica Neue", sans-serif;
+$font-thin: -apple-system, PF Beau Sans Pro Light, Roboto, "Open Sans",
+  "Helvetica Neue", sans-serif;
+
+@import "~bootstrap/scss/bootstrap";
+
+@font-face {
+  font-family: "PF Beau Sans Pro Bold";
+  src: url(../fonts/PFBeauSansPro-Bold.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "PF Beau Sans Pro Regular";
+  src: url(../fonts/PFBeauSansPro-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "PF Beau Sans Pro Light";
+  src: url(../fonts/PFBeauSansPro-Light.ttf);
+  font-weight: normal;
+  font-style: normal;
+}

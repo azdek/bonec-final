@@ -1,0 +1,23 @@
+@import "colors.scss";
+
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+  height: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: $color-light;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: darken($color: $color-main, $amount: 15%);
+  border-radius: 6px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: darken($color: $color-main, $amount: 25%);
+}

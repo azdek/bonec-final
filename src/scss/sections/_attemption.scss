@@ -1,0 +1,40 @@
+@import "../fonts.scss";
+@import "../colors.scss";
+
+.attemption {
+  border-top: 20px solid $color-main;
+  color: $color-dark;
+  font-size: 1.8rem;
+  line-height: 1em;
+
+  @media (max-width: 768px) {
+    font-size: 1rem;
+  }
+  .text {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 0 20px;
+    img {
+      position: absolute;
+      left: -10%;
+      height: 150%;
+      z-index: 1;
+      max-width: 100px;
+
+      @media (max-width: 768px) {
+        left: auto;
+        max-height: 400px;
+        right: 0%;
+      }
+    }
+    p {
+      position: relative;
+      z-index: 2;
+
+      @media (max-width: 768px) {
+        max-width: 80%;
+      }
+    }
+  }
+}
